@@ -6,35 +6,65 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>799</width>
-    <height>668</height>
+    <width>796</width>
+    <height>683</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(249, 233, 255);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="edtTarea">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>20</y>
-      <width>531</width>
+      <x>50</x>
+      <y>60</y>
+      <width>421</width>
       <height>81</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(239, 161, 255);</string>
+    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Agrega tus tareas que deceas hacer</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnAgregar">
     <property name="geometry">
      <rect>
-      <x>600</x>
-      <y>40</y>
+      <x>480</x>
+      <y>80</y>
       <width>141</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Serif</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(197, 225, 165);
+background-color: rgb(156, 204, 101);</string>
     </property>
     <property name="text">
      <string>Agregar</string>
@@ -43,24 +73,108 @@
    <widget class="QListWidget" name="lstTareas">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>140</y>
+      <x>50</x>
+      <y>170</y>
       <width>721</width>
       <height>391</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(239, 161, 255);
+background-color: rgb(233, 189, 255);</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnEliminar">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>550</y>
-      <width>93</width>
-      <height>28</height>
+      <x>340</x>
+      <y>570</y>
+      <width>141</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Serif</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(249, 68, 73);
+</string>
     </property>
     <property name="text">
      <string>Eliminar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnActualizar">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>80</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Serif</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(88, 175, 221);</string>
+    </property>
+    <property name="text">
+     <string>Actualizar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>0</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Lista de tareas</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>570</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Downloads/674062269270852504.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
@@ -69,7 +183,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>799</width>
+     <width>796</width>
      <height>26</height>
     </rect>
    </property>
