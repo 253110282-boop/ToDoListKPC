@@ -7,3 +7,12 @@ app=QApplication(sys.argv)
 ventana=ToDoList()
 ventana.show()
 sys.exit(app.exec())
+
+
+
+
+
+
+
+
+#holaaaaaaas 😸 MARCAS DE AGUAAAA 😺krn😺
