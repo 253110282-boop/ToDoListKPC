@@ -32,6 +32,9 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="toolTip">
+     <string extracomment="Agrega tus tareas que deseas ralizar">Agrega tus tareas que deseas ralizar</string>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(239, 161, 255);</string>
     </property>
